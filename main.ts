@@ -17,6 +17,8 @@ input.onButtonPressed(Button.B, function () {
 })
 radio.setGroup(56)
 basic.forever(function () {
+    basic.showIcon(IconNames.SmallHeart)
+    basic.showIcon(IconNames.Heart)
     basic.showString("HAPPY BIRTHDAY TO YOU")
     basic.showIcon(IconNames.SmallHeart)
     basic.showIcon(IconNames.Heart)
